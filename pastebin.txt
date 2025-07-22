@@ -1,0 +1,46 @@
+	<section class="timeline">
+	<div class="title-wrapper">
+	<div class="icon-box">
+	<ion-icon name="color-filter-outline"></ion-icon>
+	</div>
+	<h3 class="h3">Research Experience</h3>
+	</div>
+	<ol class="timeline-list">
+	<li class="research-flex">
+	<div class="icon-box-research">
+	<ion-icon name="book-outline"></ion-icon>
+	</div>
+	<div class="left-order">
+	<h4 class="h4 timeline-item-title">SequentialBreak: Large Language Models Can be Fooled by Embedding
+	Jailbreak Prompts into Sequential Prompt Chains</span>
+	<p class="timeline-text">Undergraduate thesis project under the guidance of <a
+	href="https://scholar.google.com/citations?user=I0k0ReMAAAAJ&hl=en&oi=sra" style="display: inline;">Dr.
+	Rezwana Reaz</a>.
+	lorem ipsum
+	</p>
+	</div>
+	</li>
+	<li class="research-flex">
+	<div class="icon-box-research">
+	<ion-icon name="book-outline"></ion-icon>
+	</div>
+	<!-- <div class="left-order">
+	<img src="assets/images/Research_Meetup.jpg" alt="" style="width: 100%; height: auto;">
+	</div> -->
+	<div class="right-order">
+	<h4 class="h4 timeline-item-title">Where Will You Meet on the Next Sunday?: A Deep
+	Learning-based Approach for a Meetup POI Prediction</h4>
+	<span>Spatio-temporal Prediction, Deep Learning</span>
+	<p class="timeline-text">Recent work with <a
+	href="https://scholar.google.com/citations?hl=en&user=pTwXI4AAAAAJ" style="display: inline;">
+	Salsabil Arabi</a>
+	and <a href="https://scholar.google.com/citations?hl=en&user=pVDa7M0AAAAJ" style="display: inline;">Adiba
+	Shaira</a> under the supervision of <a href="https://scholar.google.com/citations?hl=en&user=0wGw0ocAAAAJ"
+	style="display: inline;">Dr.
+	Tanzima Hashem</a>.
+	lorem ipsum
+	</p>
+	</div>
+	</li>
+	</ol>
+	</section>
