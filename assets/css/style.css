@@ -99,6 +99,10 @@
 
 }
 
+b, strong {
+  font-weight: var(--fw-500);
+}
+
 
 
 
