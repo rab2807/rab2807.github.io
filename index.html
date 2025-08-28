@@ -95,7 +95,7 @@
             </div>
 
             <div class="contact-info">
-              <a href="mailto:rakibahsan2807@gmail.com" class="contact-link">rakibahsan2807 AT gmail DOT com</a>
+              <a href="mailto:iamrakib242@gmail.com" class="contact-link">iamrakib242 AT gmail DOT com</a>
               <a href="mailto:rakib@cse.uiu.ac.bd" class="contact-link">rakib AT cse DOT uiu DOT ac DOT bd</a>
             </div>
 
@@ -283,7 +283,7 @@
           </div>
 
           <ol class="timeline-list">
-            <li><i style="color: rgb(110, 108, 108);">'*' denotes equal contribution</i></li>
+            <li><i style="color: rgb(110, 108, 108);">'*' denotes co-first author</i></li>
           </ol>
 
           <br>
@@ -295,17 +295,23 @@
               Jailbreak Prompts into Sequential Prompt Chains (2024-2025)</h4>
               <p class="timeline-text">Bijoy Ahmed Saiem*, MD Sadik Hossain Shanto*, <b>Rakib Ahsan*</b>, Md Rafi ur Rashid</p>
               <span>Trustworthy AI, Adversarial ML</span>
-              <br>
+              <p><i><b>(Accepted)</b> ACL Student Research Workshop (SRW) 2025</i></p>
+
+              <br><br>
               <p>
-                <a href="https://doi.org/10.18653/v1/2025.acl-srw.37">[DOI]</a>
+                <a href="https://doi.org/10.18653/v1/2025.acl-srw.37" style="display: inline;">[DOI]</a>
+                <a href="https://docs.google.com/presentation/d/1zqHQvEV6cO99P_My1RfwtkWq03AYUjx55LVynopumNM/edit?usp=sharing" style="display: inline;">[Slides]</a>
+
               </p>
               <p class="timeline-text">
-                With collaboration with <a href="https://sites.google.com/view/rafi-ur-rashid" style="display: inline;">Md Rafi Ur Rashid (Penn State
-                  University)</a>, we developed a novel automated jailbreak attack for
-                LLMs. Our methodology exploited the <i>attention dilution</i> phenomenon by embedding the harmful prompt within a
-                series of benign prompts in a single query. We showed three different example attack scenarios where sequential prompt structure
-                can be used to elicit harmful responses. While existing jailbreak methods often require multiple rounds for success, our
-                one-shot attack achieved a substantially high attack success rate against recent LLM models like Llama-3 and GPT-4o.            
+                When given multiple tasks at once, can LLMs effectively assess the safety of each task separately? In this work, I
+                co-developed a novel blackbox <b>jailbreak</b> attack showing that <b>LLMs tend to overlook harmful context while handling a
+                series of prompts in a single query</b>. While existing jailbreaks often require multiple rounds for success, our attack
+                achieves a high success rate (~90% in <a href="https://arxiv.org/abs/2404.01318" style="display: inline;">JBB-Behaviors</a>  dataset) against recent LLMs with a single, simple query. 
+                <br>
+                Our strategy was to embed a harmful prompt within a series of benign ones, causing the model’s attention to be diluted
+                across prompts and reducing its focus on the harmful prompt. We showed three different example attack scenarios (<i>Question bank, dialog completion </i>, and <i>level-wise game scenario description</i>) where sequential prompt structure
+                can be used to elicit harmful responses. This research was done in collaboration with <b>Penn State University</b>.
               </p>
             </li>
 
@@ -313,19 +319,17 @@
             
               <h4 class="h4 timeline-item-title">A Survey of Attacks and Defenses in LLM Agents and Vision‑Language Models (2025-Current)</h4>
               <p class="timeline-text">Bijoy Ahmed Saiem*, MD Sadik Hossain Shanto*, Raihan Sobhan*, <b>Rakib Ahsan*</b>, Md Rafi ur Rashid</p>
-              <p><i><b>(Accepted)</b> ACL Student Research Workshop (SRW) 2025</i></p>
               <span>Trustworthy AI</span>
               <br>
               <!-- <p>
                 <a href="https://arxiv.org/abs/2411.06426">[Link]</a>
               </p> -->
-              <p class="timeline-text">                
-                Ongoing project on a comprehensive survey in collaboration with <a href="https://sites.google.com/view/rafi-ur-rashid" style="display: inline;">Md Rafi Ur
-                  Rashid (Penn State
-                  University)</a>, examining the
-                landscape of attacks and defenses targeting large language model (LLM) agents and vision-language models. The survey
-                covers a broad spectrum of security threats, including adversarial attacks, jailbreaks, data poisoning, backdoors,
-                privacy breaches, and model extraction attacks.
+              <p class="timeline-text">
+                As a follow-up to my previous collaboration, this is an ongoing project on a <b>comprehensive survey</b> examining the
+                landscape of attacks and defenses targeting <b>LLM agents</b> and <b>Vision-Language Models (VLMs)</b>. In this study,
+                I aim to explore questions such as: <i>What additional attack surfaces do multimodal models and AI agents
+                introduce beyond those of unimodal LLMs?</i> and <i>To what extent and how can existing attacks and defenses for unimodal LLMs
+                be adapted to multimodal models and agents?</i>
               </p>
             </li>
 
@@ -335,12 +339,22 @@
               Methane Plume Detection in Sentinel-2 Satellite Imagery (2024-2025)</h4>
               <p>Undergraduate Thesis</p>
               <p class="timeline-text"><b>Rakib Ahsan*</b>, MD Sadik Hossain Shanto*, Md Sultanul Arifin, Tanzima Hashem</p>
-              <p><i>Under preparation for "NeurIPS 2025 Workshop: Tackling Climate Change with Machine Learning"</i></p>
-              <span>Computer Vision, Remote Sensing</span>
+              <span>Computer Vision, Remote Sensing</span>              
+              <p><i>Under preparation for ICASSP 2026</i></p>
               <br>
               <p class="timeline-text">
                 Undergraduate thesis project under <a href="https://sites.google.com/site/tanzimahashem" style="display: inline;">Dr. Tanzima Hashem (BUET)</a>.
-Methane is the second-largest contributor to greenhouse gas emissions, and its reduction offers a rapid path to limiting global temperature rise. Our aim in this work is to develop a lightweight framework that outputs accurate segmentation masks of methane plumes from multispectral satellite imagery. For segmentation model, we enhanced U-net with attention gates for improved focus in methane-specific region. We also showed that introducing spectral indices as an extra input channel significantly improves segmentation boundaries. Experiments show that our method outperforms the state-of-the-art detection methods in real-world conditions.
+
+                Methane detection and reduction offers a rapid path to limiting global temperature rise.
+                But what makes methane detection a challenging segmentation problem? First, publicly available datasets are scarce and
+                highly imbalanced, with a very high negative-to-positive ratio due to the scarcity of recorded methane leakage events.
+                Second, the complex morphology of gas plumes and satellite data noise make the segmentation task even more difficult.
+                <br><br>
+                Our contributions were mainly two: using <b>U-Net with attention gates to dynamically focus on methane-specific regions</b>,
+                and demonstrating that <b>spectral indices as an extra input channel can produce more accurate masks</b>. We also address the high class imbalance in our dataset with focal loss.
+                Our approach achieved a balanced performance by reducing both false positives and false negatives, which existing works could not achieve.
+
+ <!-- Our aim in this work is to develop a lightweight framework that outputs accurate segmentation masks of methane plumes from multispectral satellite imagery. For segmentation model, we enhanced U-net with attention gates for improved focus in methane-specific region. We also showed that introducing spectral indices as an extra input channel significantly improves segmentation boundaries. Experiments show that our method outperforms the state-of-the-art detection methods in real-world conditions. -->
               </p>
             </li>
 
@@ -406,7 +420,7 @@ Methane is the second-largest contributor to greenhouse gas emissions, and its r
               <h4 class="h4 timeline-item-title">Lecturer (Full-time)</h4>
 
               <p class="timeline-text">Department of Computer Science and Engineering,</p>
-              <p class="timeline-text">United International University</p>
+              <p class="timeline-text">United International University, Bangladesh</p>
 
               <span>April 2024 — Present</span>
 
@@ -921,7 +935,7 @@ Methane is the second-largest contributor to greenhouse gas emissions, and its r
               <p class="timeline-text">BUET CSE FEST 2024</p>
               <span>October 2024 - November 2024</span>
               <!-- <a href="https://www.facebook.com/buetcsefest2022/">[Visit Our Facebook Page]</a> -->
-              <p class="timeline-text">Worked as an organizer at the GameJam event. Also took an workshop on <b>Game development using Unity</b> for the same event.</p>
+              <p class="timeline-text">Co-organized the GameJam event. Also took a workshop on <b>Game development using Unity</b> for the same event.</p>
 
             </li>
 
@@ -963,7 +977,7 @@ Methane is the second-largest contributor to greenhouse gas emissions, and its r
               </div>
 
               <div class="contact-info">
-              <a href="mailto:rakibahsan2807@gmail.com" class="contact-link">rakibahsan2807 AT gmail DOT com</a>
+              <a href="mailto:iamrakib242@gmail.com" class="contact-link">iamrakib242 AT gmail DOT com</a>
               <a href="mailto:rakib@cse.uiu.ac.bd" class="contact-link">rakib AT cse DOT uiu DOT ac DOT bd</a>
               </div>
 
