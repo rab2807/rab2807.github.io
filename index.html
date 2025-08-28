@@ -372,9 +372,12 @@
               <p class="timeline-text">
                 This work originated from our submission to the <a href="https://2025.ieeeicassp.org/sp-cup/" style="display: inline;">IEEE SPS Signal Processing Cup 2025</a>, where our team (Straw Hats) was the 1st runner-up.
                 The task involved classifying human faces as deepfake or real.
-                Our approach utilized MaxViT, CoAtNet, and EVA‑02 as backbone models, fine-tuned with supervised contrastive loss to
-                enhance feature separation. Final predictions were obtained through a majority voting ensemble across the backbone
-                classifiers.
+                    For binary classification tasks like this, clearly separating features helps models generalize better to hard-to-classify cases.
+                    Building on this, our methodology employs MaxViT, CoAtNet, and EVA‑02 as backbones, fine-tuned using <b>supervised
+                    contrastive loss</b> to enhance feature separation. The final prediction is obtained through majority voting on the
+                    classification heads of the individual backbones. Supervised contrastive loss produces well-separated embedding spaces,
+                    while ensembling captures different perspectives from multiple models.
+
               </p>
             </li>
           </ol>
